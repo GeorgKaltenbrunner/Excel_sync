@@ -2,7 +2,7 @@
 Concat specific information from different excel files
 
 ## Background
-The problem faced was that about 500 Excel with a similar structure were given. From each excel the information needed
+The problem faced was that about 500 Excel files with a similar structure were given. From each excel the information needed
 could be specified on 6 columns from each the mean was needed.
 
 
