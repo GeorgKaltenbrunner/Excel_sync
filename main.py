@@ -34,13 +34,10 @@ def get_excel_data(seperator, regre_method):
                                 'Avg_SFTT': avg_sftt,
                                 'Prognosegüte': prognose_mean}, index=[file_column])
 
-
-
         validation_df = pd.concat([validation_df, df_file])
 
         print()
 
 
-
-
-get_excel_data("_EXP_ALL_DEMAND_", "_EXP_ALL_DEMAND_")
+if __name__ == "__main__":
+    get_excel_data("_EXP_ALL_DEMAND_", "_EXP_ALL_DEMAND_")
